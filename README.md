@@ -7,6 +7,11 @@ Origin story:
 
     bundle exec rails new . --webpack=react --database=postgresql
 
+Versions:
+
+    Rails version: 5.1.0.rc1
+    Ruby version: 2.3.1 (x86_64-darwin15) # at least
+
 Deployment (heroku, e.g.):
 
     heroku create
@@ -14,9 +19,10 @@ Deployment (heroku, e.g.):
 
 Installation
 
-    git clone git@github.com:alexburgos/progcodeco.git
+    git clone git@github.com:rthbound/fluffy-octo-spoon.git # or whatever
 
-    cd progcodeco
+    cd fluffy-octo-spoon # or whatever
+
     ./bin/setup
 
     bundle exec rake test
