@@ -1,4 +1,7 @@
-# Origin story:
+# One shell of a rails app
+[![Code Climate](https://codeclimate.com/github/rthbound/fluffy-octo-spoon/badges/gpa.svg)](https://codeclimate.com/github/rthbound/fluffy-octo-spoon)
+
+## Origin story:
 
     nvm install node
     Downloading and installing node v7.7.4...
@@ -7,17 +10,17 @@
 
     bundle exec rails new . --webpack=react --database=postgresql
 
-# Versions:
+## Versions:
 
     Rails version: 5.1.0.rc1
-    Ruby version: 2.3.1 (x86_64-darwin15) # at least
+    Ruby version: 2.4.0 and up
 
-# Deployment (heroku, e.g.):
+## Deployment (heroku, e.g.):
 
     heroku create
     git push heroku master
 
-# Installation
+## Installation
 
     git clone git@github.com:rthbound/fluffy-octo-spoon.git # or whatever
 
@@ -27,8 +30,7 @@
 
     bundle exec rake test
 
-# Development Server:
-
+## Development Server:
 
 In one shell run the web server:
 
@@ -45,30 +47,3 @@ Foreman can start both the webpack server and rails server for you:
     foreman start -f Procfile.dev
 
 Using Procfile.dev since we want to deploy to Heroku and we don't want it running this Procfile.
-
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
